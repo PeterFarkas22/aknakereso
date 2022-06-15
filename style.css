@@ -1,0 +1,44 @@
+.grid-container {
+    display: grid;
+    gap: 3px 3px;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px;
+    justify-content: center;
+}
+
+.grid-item {
+    background-color: rgb(140, 140, 140);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#displayNums {
+    font-size: xx-large;
+}
+
+#red {
+    color: red;
+    font-size: xx-large;
+    justify-content: center;
+    text-align: center;
+}
+
+#green {
+    color: green;
+    font-size: xx-large;
+    justify-content: center;
+    text-align: center;
+}
+
+#blue {
+    color: blue;
+    font-size: xx-large;
+    justify-content: center;
+    text-align: center;
+}
